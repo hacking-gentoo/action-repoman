@@ -1,0 +1,5 @@
+name: 'action-repoman'
+description: 'Run repoman on a repository'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
