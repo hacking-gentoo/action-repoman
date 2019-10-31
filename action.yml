@@ -3,3 +3,6 @@ description: 'Run repoman on a repository'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+branding:
+  icon: 'thumbs-up'
+  color: 'purple'
