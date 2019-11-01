@@ -8,4 +8,4 @@ fi
 
 cd "${GITHUB_WORKSPACE}" || exit 2
 
-repoman
+PORTDIR_OVERLAY="." repoman --straight-to-stable -dx full
